@@ -1,0 +1,48 @@
+Q1:
+(Please check submitted code)
+
+make mmult
+./mmult
+
+Results:
+
+(cuda1)
+Using device 0: NVIDIA GeForce GTX TITAN Black 
+Matrix size       Bandwith
+8                0.000502
+16               0.008157
+32               0.026066
+64               0.063976
+128              0.139724
+256              0.274426
+512              0.562924
+1024             1.142181
+2048             2.275482
+4096             2.921424
+8192             3.118187
+16384            2.193586
+
+(cuda2)
+Using device 0: NVIDIA GeForce RTX 2080 Ti 
+Matrix size       Bandwith
+8                0.001773
+16               0.023161
+32               0.079903
+64               0.241636
+128              0.571429
+256              0.857024
+512              1.802767
+1024             3.422371
+2048             6.565992
+4096             12.469468
+8192             19.574867
+16384            22.565107
+
+Q2:
+(Please check submitted code)
+I used my code from homework 2 for compute_residual.
+I only compute the residual at the start and at the end.
+
+Q3:
+Update can be found in project_update.tex
+My teammates and I have submitted the same update.
